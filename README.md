@@ -1,2 +1,2 @@
 # Expeditech-UI
- CSS component library
+ week two assignments that would be a part of my CSS component library
