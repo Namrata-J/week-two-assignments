@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Monoton&family=Nunito:wght@200&family=Rubik&family=Sen&display=swap');
+
+* {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Monoton', cursive;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Sen', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.et_header-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* standard header starts */
+.header-container {
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 2px 1px rgb(80, 78, 78);
+    width: 80rem;
+    height: 20rem;
+    margin: 2rem 0rem;
+    overflow-y: scroll;
+}
+
+.et_standard-header-container>* {
+    padding: 1rem 4rem;
+}
+
+.header {
+    background-color: rgb(17, 32, 43);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header>* {
+    display: flex;
+    gap: 2rem;
+    padding: 0.5rem 1rem;
+}
+
+.header section>* {
+    border-radius: 2rem;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+}
+
+section button:hover {
+    background-color: rgb(248, 241, 134);
+}
+
+h2 {
+    color: rgb(231, 231, 222);
+}
+
+p {
+    font-size: larger;
+    padding: 1rem;
+}
+
+/* standard header ends */
+
+/* fixed header starts */
+.et_fixed-header {
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+}
+
+.et_fixed-container-main-section {
+    padding: 1rem 1rem;
+}
+
+/* fixed header ends */
+
+/* short header starts */
+.et_short-header {
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+}
+.main-section {
+    padding: 1rem 1rem;
+}
+
+/* short header end */
+
+/* always collapsed header starts */
+.et_always-collapsed-header{
+    padding: 1rem;
+ position: absolute;
+ border-bottom-right-radius: 3rem;
+}
+/* always collapsed header ends */
