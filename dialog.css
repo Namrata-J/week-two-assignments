@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Monoton&family=Nunito:wght@200&family=Rubik&family=Sen&display=swap');
+
+* {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Monoton', cursive;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Sen', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(186, 225, 243);
+}
+
+.et_dialog-button-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem 1rem 2rem 1rem;
+}
+.et_dialog-button-container>*{
+    box-shadow: 0px 0px 5px 2px rgb(54, 60, 139);
+    font-size: larger;
+    margin: 2rem 0rem;
+    padding: 1rem 2rem;
+}
+.et_dialog-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
+/* alert dialog starts */
+.et_alert-dialog{
+    height: 300px;
+}
+.dialog{
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 3px 1px;
+    background-color: white;
+    padding: 2rem;
+    width: 20rem;
+    visibility: hidden;
+}
+.dialog>*{
+     padding: 0.5rem 0rem;
+}
+h3{
+    color: grey;
+    font-weight: lighter;
+}
+.action-btns{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.8rem;
+}
+.action-btns>*{
+border-radius: 0.5rem;
+color: rgb(19, 59, 134);
+font-weight: bold;
+padding: 1rem;
+margin: 0.5rem 0rem;
+}
+.action-btns span:hover{
+    background-color: rgb(223, 215, 215);
+    cursor: pointer;
+}
+/* alert dialog ends */
+
+/* simple dialog starts */
+.et_simple-dialog{
+    height: 350px;
+}
+.et_simple-dialog h2{
+   padding-left: 1rem;
+}
+.simple-dialog-actions >*{
+    align-items: center;
+    border-radius: 0.5rem;
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem;
+    margin: 1rem 0rem 0rem 0rem;
+}
+.simple-dialog-actions i{
+    color: rgb(129, 134, 136);
+    font-size: 3.2rem;
+}
+.simple-dialog-actions span{
+    display: inline-block;
+    font-size: 1.3rem;
+}
+.simple-dialog-actions div:hover{
+    background-color: rgb(223, 215, 215);
+    cursor: pointer;
+}
+/* simple dialog ends */
+
+/* confirmation dialog starts */
+.et_confirmation-dialog-container h2{
+    padding-bottom: 2rem;
+}
+.input-fields{
+    height: 130px;
+    overflow-y: scroll;
+}
+input[type="radio"]{
+    width: 10%;
+    height: 1.5rem;
+}
+li{
+    list-style-type: none;
+}
+label{ 
+    align-items: center;
+    display: flex;
+    font-size: 1.3rem;
+    flex-direction: row;
+    padding: 0.5rem 0rem;
+}
+.solid{
+    border-bottom: 1px solid grey;
+    padding: 0rem;
+}
+/* confirmation dialog ends */
