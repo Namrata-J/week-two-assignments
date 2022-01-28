@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/svg" href="Images/logo.svg">
+    <link rel="stylesheet" type="text/css" href="/dialog.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <title>Expeditech UI</title>
+</head>
+
+<body>
+    <div class="et_dialog-button-container">
+        <button>OPEN ALERT DIALOG</button>
+        <button>OPEN SIMPLE DIALOG</button>
+        <button>OPEN CONFIRMATION DIALOG</button>
+    </div>
+
+    <div class="et_dialog-container">
+        <!-- alert dialog starts -->
+        <div class="et_alert-dialog dialog">
+            <h2>Dialog header</h2>
+            <h3>Dialog body text</h3>
+            <div class="action-btns">
+                <span class="alert-dialog-closeBtn">FULL-WIDTH ACTION 1</span>
+                <span class="alert-dialog-closeBtn">FULL-WIDTH ACTION 2</span>
+            </div>
+        </div>
+        <!-- alert dialog ends -->
+
+        <!-- simple dialog starts -->
+        <div class="et_simple-dialog dialog">
+            <h2>Dialog header</h2>
+            <div class="simple-dialog-actions">
+                <div class="simple-dialog-closeBtn">
+                    <i class="fas fa-user-circle"></i>
+                    <span>Item 1</span>
+                </div>
+                <div class="simple-dialog-closeBtn">
+                    <i class="fas fa-user-circle"></i>
+                    <span>Item 2</span>
+                </div>
+                <div class="simple-dialog-closeBtn">
+                    <i class="fas fa-user-circle"></i>
+                    <span>Item 3</span>
+                </div>
+            </div>
+        </div>
+        <!-- simple dialog ends -->
+
+        <!-- confirmation dialog starts -->
+        <div class="et_confirmation-dialog-container dialog">
+            <h2>Dialog header</h2>
+            <hr class="solid"> 
+            <div class="input-fields">
+                <li class="dialog-item">
+                    <label for="item1">
+                        <input type="radio" class="item1" name="item">
+                        Item1
+                    </label>
+                </li>
+                <li class="dialog-item">
+                    <label for="item2">
+                        <input type="radio" class="item2" name="item">
+                        Item2
+                    </label>
+                </li>
+                <li class="dialog-item">
+                    <label for="item3">
+                        <input type="radio" class="item1" name="item">
+                        Item3
+                    </label>
+                </li>
+                <li class="dialog-item">
+                    <label for="item4">
+                        <input type="radio" class="item1" name="item">
+                        Item4
+                    </label>
+                </li>
+            </div>
+            <hr class="solid">
+            <div class="action-btns">
+                <span class="confirmation-dialog-close-btn">FULL-WIDTH ACTION 1</span>
+                <span class="confirmation-dialog-close-btn">FULL-WIDTH ACTION 2</span>
+            </div>
+        </div>
+        <!-- confirmation dialog ends -->
+    </div>
+    <script src="/dialog.js" type="text/javascript"></script>
+</body>
+
+</html>
