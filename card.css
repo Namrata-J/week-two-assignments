@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: rgb(11, 36, 68);
+    background-color: rgb(230, 233, 236);
 }
 
 /* styling on cards components */
@@ -27,7 +27,7 @@ body {
 .et_b-card-container {
     background-color: rgb(235, 245, 245);
     border-radius: 0.7rem 0.7rem 0.3rem 0.2rem;
-    box-shadow: 0px 0px 8px 5px rgb(27, 27, 27);
+    box-shadow:  15px 15px 20px 3px rgb(27, 27, 27);
     height: 300px;
     width: 280px;
 }
