@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Monoton&family=Nunito:wght@200&family=Rubik&family=Sen&display=swap');
+
+* {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Monoton', cursive;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Sen', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(219, 223, 230);
+    display: flex;
+    justify-content: center;
+}
+
+.et_snackbar-container {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.et_snackbar-container>* {
+    background-color: rgb(21, 21, 75);
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px 3px rgb(9, 6, 43);
+    color: white;
+    cursor: pointer;
+    font-size: larger;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    margin-top: 4rem;
+}
+
+/* baseline snackbar starts */
+.snackbar {
+    background-color: rgb(50, 50, 53);
+    border-radius: 0.4rem;
+    bottom: 10px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: space-between;
+    padding: 1rem;
+    position: fixed;
+    visibility: hidden;
+    width: 30rem;
+    z-index: 4;
+}
+
+h3 {
+    font-weight: 100;
+}
+
+.action {
+    color: rgb(248, 52, 52);
+    font-size: 1.2rem;
+}
+
+.closeBtn {
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+/* leading snackbar starts */
+.leading-snackbar {
+    left: 30px;
+    bottom: 50px;
+    z-index: 3;
+}
+
+/* stacked snackbar starts */
+.stacked-snackbar {
+    align-items: flex-end;
+    flex-direction: column;
+    right: 30px;
+    bottom: 30px;
+    z-index: 2;
+}
+
+.stacked {
+    display: flex;
+    gap: 2.5rem;
+}
