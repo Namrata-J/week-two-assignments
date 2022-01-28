@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Monoton&family=Nunito:wght@200&family=Rubik&family=Sen&display=swap');
+
+* {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Monoton', cursive;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Sen', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9rem;
+}
+.et_badges-container{
+    box-shadow: 0px 0px 6px 1px black;
+    max-width: 50%;
+    padding: 3rem;
+}
+/* normal size badge starts here */
+.et_badge{
+    margin: 0.5rem;
+}
+h2{
+    display: inline-block;
+    font-weight: lighter;
+    position: relative;
+}
+.badge{
+    background-color:rgb(19, 64, 122);
+    border-radius: 1rem;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.2rem 0.6rem;
+    position: absolute;
+    top: -10px;
+    right: -15px;
+}
+/* normal size badge ends here */
+
+/* large badge starts */
+.large-badge{
+    border-radius: 2rem;
+    font-size: 1.7rem;
+    padding: 0.2rem 0.8rem;
+    top: -18px;
+    right: -20px;
+}
+/* large badge ends */
+
+/* button with a badge on left starts */
+button{
+    background-color: rgb(25, 60, 134);
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    padding: 0.5rem 1rem;
+    position: relative;
+}
+.left-badge{
+    background-color: rgb(202, 33, 33);
+    border-radius: 1rem;
+    position: absolute;
+    padding: 0.2rem 0.6rem;
+    top: -10px;
+    left: -10px;
+}
+/* button with a badge on left ends */
+
+/* button toggles badge visibility starts */
+.toggle-button{
+    background-color: white;
+    color: black;
+}
+/* button toggles badge visibility ends */
+
+/* Icon with a badge starts */
+h2 i{
+    font-size: larger;
+}
+.icon-badge{
+    background-color: rgb(216, 42, 143);
+}
+/* Icon with a badge ends */
