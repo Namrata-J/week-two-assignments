@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Monoton&family=Nunito:wght@200&family=Rubik&family=Sen&display=swap');
+
+* {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Monoton', cursive;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Sen', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(219, 211, 211);
+}
+
+.et_tabs-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 1rem;
+}
+
+/* fixed tab starts */
+.tabs {
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: nowrap;
+    width: fit-content;
+}
+
+.tab {
+    display: none;
+}
+
+label {
+    display: inline-block;
+    padding: 1rem 2rem;
+}
+
+label:hover {
+    border-bottom: 2px solid rgb(41, 71, 116);
+}
+
+input:checked+label {
+    background-color: cornsilk;
+    border-bottom: 2px solid rgb(41, 71, 116);
+}
+
+/* fixed tab ends */
+
+/* scrollable tab starts */
+
+.scrollable-tab::-webkit-scrollbar {
+    width: 0 !important
+}
+
+.scrollable-tab {
+    width: 20rem;
+    margin: 1rem 0rem;
+    overflow-x: scroll;
+}
+
+/* scrollable tab ends */
