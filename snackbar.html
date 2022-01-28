@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/svg" href="Images/logo.svg">
+    <link rel="stylesheet" type="text/css" href="/snackbar.css" />
+    <title>Expeditech UI</title>
+</head>
+
+<body>
+    <div class="et_snackbar-container">
+        <button class="baseline">Baseline</button>
+        <button class="leading">Leading</button>
+        <button class="stacked">Stacked</button>
+    </div>
+    <!-- baseline snackbar starts -->
+    <div class="baseline-snackbar snackbar">
+        <h3>Can't send photo. Retry in 5 seconds.</h3>
+        <div class="retry action">Retry</div>
+        <div class="closeBtn btn1">x</div>
+    </div>
+    <!-- baseline snackbar ends -->
+
+    <!-- leading snackbar starts -->
+    <div class="leading-snackbar snackbar">
+        <h3>Your photo has been archived.</h3>
+        <div class="undo action">Undo</div>
+        <div class="closeBtn btn2">x</div>
+    </div>
+    <!-- leading snackbar ends -->
+
+    <!-- stacked snackbar starts -->
+    <div class="stacked-snackbar snackbar">
+        <h3>This item already has the label "travel". You can add a new label.</h3>
+        <div class="stacked">
+            <div class="add-label action">Add A New Label</div>
+            <div class="closeBtn btn3">x</div>
+        </div>
+    </div>
+    <!-- stacked snackbar ends -->
+    <script src="/snackbar.js" text="text/javascript"></script>
+</body>
+
+</html>
